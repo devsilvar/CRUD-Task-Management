@@ -1,0 +1,74 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
+
+body {
+  background-color: #f8f9fa;
+}
+.editModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.close-modal {
+  position: relative;
+  top: 0rem;
+  left: 90%;
+  font-size: 3.5rem;
+  color: #333;
+  height: 62px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.close-modal {
+  position: absolute;
+  top: -1rem;
+  right: 2rem;
+  font-size: 3.5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/* #task_Table:first-child {
+  display: none;
+  background-color: red;
+} */
+
+@media only screen and (max-width: 526px) {
+  .small-text {
+    font-size: 0.7rem;
+  }
+}
+/* 
+tbody tr td:nth-of-type(2),
+tbody tr td:nth-of-type(3),
+tbody tr td:nth-of-type(4) {
+} */
+
+/* tbody tr td:nth-of-type(1),
+tbody tr td:nth-of-type(2) {
+  display: inline-block;
+} */
+/* 
+#task_Table {
+  background-color: red;
+} */
